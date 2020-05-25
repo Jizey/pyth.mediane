@@ -7,7 +7,7 @@ notes = []
 while True:
     nb = (input("  Ajoutez un nombre : "))
     try: 
-        nb = float(nb) # MAJ : inclure un Try: except / ValueError:
+        nb = float(nb)
         notes.append(nb) #on stocke le nombre choisi dans une liste
         notes.sort() #on trie les nombres dans l'ordre croissant
         print(notes)
